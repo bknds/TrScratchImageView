@@ -17,7 +17,7 @@ public protocol TrScratchImageViewDelegate {
 public class TrScratchImageView: UIImageView {
     
     // MARK: Public stored properties
-    public weak var delegate: TrScratchImageViewDelegate?
+    public  var delegate: TrScratchImageViewDelegate?
     // Determin the radius of the spot
     private(set) var spotRadius: CGFloat = 45.0
     
