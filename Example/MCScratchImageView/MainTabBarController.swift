@@ -1,9 +1,9 @@
 //
 //  MainTabBarController.swift
-//  MCScratchImageView
+//  TrScratchImageView
 //
-//  Created by Minecode on 2017/12/27.
-//  Copyright © 2017年 Minecode. All rights reserved.
+//  Created by bknds on 2017/12/27.
+//  Copyright © 2017年 bknds. All rights reserved.
 //
 
 import UIKit

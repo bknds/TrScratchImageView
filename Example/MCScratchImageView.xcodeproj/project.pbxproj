@@ -16,7 +16,7 @@
 		E79058591FF25129000138BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79058581FF25129000138BF /* AppDelegate.swift */; };
 		E79058601FF25129000138BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E790585F1FF25129000138BF /* Assets.xcassets */; };
 		E79058631FF25129000138BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79058611FF25129000138BF /* LaunchScreen.storyboard */; };
-		E790586C1FF25173000138BF /* MCScratchImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790586B1FF25173000138BF /* MCScratchImageView.swift */; };
+		E790586C1FF25173000138BF /* TrScratchImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790586B1FF25173000138BF /* TrScratchImageView.swift */; };
 		E7E8E6001FF3D46C0065E6E6 /* bonus1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E8E5FC1FF3D46C0065E6E6 /* bonus1.png */; };
 		E7E8E6011FF3D46C0065E6E6 /* bonus1-scratch.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E8E5FD1FF3D46C0065E6E6 /* bonus1-scratch.png */; };
 		E7E8E6021FF3D46C0065E6E6 /* bonus2-scratch.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E8E5FE1FF3D46C0065E6E6 /* bonus2-scratch.png */; };
@@ -34,12 +34,12 @@
 		E7533F281FF4C78900FB3785 /* PopScratchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopScratchViewController.swift; sourceTree = "<group>"; };
 		E7533F2A1FF4C8B300FB3785 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E758DA821FF3D7F7003239FC /* ScratchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchViewController.swift; sourceTree = "<group>"; };
-		E79058551FF25129000138BF /* MCScratchImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCScratchImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79058551FF25129000138BF /* TrScratchImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrScratchImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79058581FF25129000138BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E790585F1FF25129000138BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79058621FF25129000138BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E79058641FF25129000138BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E790586B1FF25173000138BF /* MCScratchImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCScratchImageView.swift; sourceTree = "<group>"; };
+		E790586B1FF25173000138BF /* TrScratchImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrScratchImageView.swift; sourceTree = "<group>"; };
 		E7E8E5FC1FF3D46C0065E6E6 /* bonus1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonus1.png; sourceTree = "<group>"; };
 		E7E8E5FD1FF3D46C0065E6E6 /* bonus1-scratch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bonus1-scratch.png"; sourceTree = "<group>"; };
 		E7E8E5FE1FF3D46C0065E6E6 /* bonus2-scratch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bonus2-scratch.png"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				E714024E1FF5FAD2003B1727 /* README.md */,
-				E79058571FF25129000138BF /* MCScratchImageView */,
+				E79058571FF25129000138BF /* TrScratchImageView */,
 				E79058561FF25129000138BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,16 +69,16 @@
 		E79058561FF25129000138BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E79058551FF25129000138BF /* MCScratchImageView.app */,
+				E79058551FF25129000138BF /* TrScratchImageView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E79058571FF25129000138BF /* MCScratchImageView */ = {
+		E79058571FF25129000138BF /* TrScratchImageView */ = {
 			isa = PBXGroup;
 			children = (
 				E790586D1FF2B411000138BF /* Resources */,
-				E790586A1FF25147000138BF /* MCScratchImageView */,
+				E790586A1FF25147000138BF /* TrScratchImageView */,
 				E79058581FF25129000138BF /* AppDelegate.swift */,
 				E7533F201FF3E58700FB3785 /* MainTabBarController.swift */,
 				E758DA821FF3D7F7003239FC /* ScratchViewController.swift */,
@@ -89,15 +89,15 @@
 				E79058611FF25129000138BF /* LaunchScreen.storyboard */,
 				E79058641FF25129000138BF /* Info.plist */,
 			);
-			path = MCScratchImageView;
+			path = TrScratchImageView;
 			sourceTree = "<group>";
 		};
-		E790586A1FF25147000138BF /* MCScratchImageView */ = {
+		E790586A1FF25147000138BF /* TrScratchImageView */ = {
 			isa = PBXGroup;
 			children = (
-				E790586B1FF25173000138BF /* MCScratchImageView.swift */,
+				E790586B1FF25173000138BF /* TrScratchImageView.swift */,
 			);
-			path = MCScratchImageView;
+			path = TrScratchImageView;
 			sourceTree = "<group>";
 		};
 		E790586D1FF2B411000138BF /* Resources */ = {
@@ -114,9 +114,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E79058541FF25129000138BF /* MCScratchImageView */ = {
+		E79058541FF25129000138BF /* TrScratchImageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E79058671FF25129000138BF /* Build configuration list for PBXNativeTarget "MCScratchImageView" */;
+			buildConfigurationList = E79058671FF25129000138BF /* Build configuration list for PBXNativeTarget "TrScratchImageView" */;
 			buildPhases = (
 				E79058511FF25129000138BF /* Sources */,
 				E79058521FF25129000138BF /* Frameworks */,
@@ -126,9 +126,9 @@
 			);
 			dependencies = (
 			);
-			name = MCScratchImageView;
-			productName = MCScratchImageView;
-			productReference = E79058551FF25129000138BF /* MCScratchImageView.app */;
+			name = TrScratchImageView;
+			productName = TrScratchImageView;
+			productReference = E79058551FF25129000138BF /* TrScratchImageView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = Minecode;
+				ORGANIZATIONNAME = bknds;
 				TargetAttributes = {
 					E79058541FF25129000138BF = {
 						CreatedOnToolsVersion = 9.2;
@@ -147,7 +147,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E79058501FF25129000138BF /* Build configuration list for PBXProject "MCScratchImageView" */;
+			buildConfigurationList = E79058501FF25129000138BF /* Build configuration list for PBXProject "TrScratchImageView" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E79058541FF25129000138BF /* MCScratchImageView */,
+				E79058541FF25129000138BF /* TrScratchImageView */,
 			);
 		};
 /* End PBXProject section */
@@ -196,7 +196,7 @@
 				E7E8E6061FF3D4750065E6E6 /* bonus2-scratch.png in Sources */,
 				E7E8E6071FF3D4750065E6E6 /* bonus2.png in Sources */,
 				E758DA831FF3D7F7003239FC /* ScratchViewController.swift in Sources */,
-				E790586C1FF25173000138BF /* MCScratchImageView.swift in Sources */,
+				E790586C1FF25173000138BF /* TrScratchImageView.swift in Sources */,
 				E79058591FF25129000138BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,10 +328,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQ4VPYFFH5;
-				INFOPLIST_FILE = MCScratchImageView/Info.plist;
+				INFOPLIST_FILE = TrScratchImageView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = link.minecode.MCScratchImageView;
+				PRODUCT_BUNDLE_IDENTIFIER = link.bknds.TrScratchImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -344,10 +344,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQ4VPYFFH5;
-				INFOPLIST_FILE = MCScratchImageView/Info.plist;
+				INFOPLIST_FILE = TrScratchImageView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = link.minecode.MCScratchImageView;
+				PRODUCT_BUNDLE_IDENTIFIER = link.bknds.TrScratchImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -357,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E79058501FF25129000138BF /* Build configuration list for PBXProject "MCScratchImageView" */ = {
+		E79058501FF25129000138BF /* Build configuration list for PBXProject "TrScratchImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E79058651FF25129000138BF /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E79058671FF25129000138BF /* Build configuration list for PBXNativeTarget "MCScratchImageView" */ = {
+		E79058671FF25129000138BF /* Build configuration list for PBXNativeTarget "TrScratchImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E79058681FF25129000138BF /* Debug */,

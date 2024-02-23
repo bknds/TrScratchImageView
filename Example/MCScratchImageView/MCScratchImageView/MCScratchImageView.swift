@@ -1,23 +1,23 @@
 //
-//  MCScratchImageView.swift
-//  MCScratchImageView
+//  TrScratchImageView.swift
+//  TrScratchImageView
 //
-//  Created by Minecode on 2017/12/26.
-//  Copyright © 2017年 Minecode. All rights reserved.
+//  Created by bknds on 2017/12/26.
+//  Copyright © 2017年 bknds. All rights reserved.
 //
 
 import UIKit
 
-public protocol MCScratchImageViewDelegate {
+public protocol TrScratchImageViewDelegate {
     
-    func mcScratchImageView(_ mcScratchImageView: MCScratchImageView, didChangeProgress progress: CGFloat)
+    func TrScratchImageView(_ TrScratchImageView: TrScratchImageView, didChangeProgress progress: CGFloat)
     
 }
 
-public class MCScratchImageView: UIImageView {
+public class TrScratchImageView: UIImageView {
 
     // MARK: Public stored properties
-    public var delegate: MCScratchImageViewDelegate?
+    public var delegate: TrScratchImageViewDelegate?
     // Determin the radius of the spot
     private(set) var spotRadius: CGFloat = 45.0
     
@@ -122,7 +122,7 @@ public class MCScratchImageView: UIImageView {
         self.image = UIImage(cgImage: imageContext.makeImage()!)
         
         if (currentProgress != self.progress) {
-            self.delegate?.mcScratchImageView(self, didChangeProgress: self.progress)
+            self.delegate?.TrScratchImageView(self, didChangeProgress: self.progress)
         }
     }
     
@@ -200,7 +200,7 @@ public class MCScratchImageView: UIImageView {
         }
         
         if (currentProgress != self.progress) {
-            self.delegate?.mcScratchImageView(self, didChangeProgress: self.progress)
+            self.delegate?.TrScratchImageView(self, didChangeProgress: self.progress)
         }
         
         let cgImage = ctx.makeImage()

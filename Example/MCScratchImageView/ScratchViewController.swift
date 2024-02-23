@@ -1,9 +1,9 @@
 //
 //  ScratchViewController.swift
-//  MCScratchImageView
+//  TrScratchImageView
 //
-//  Created by Minecode on 2017/12/27.
-//  Copyright © 2017年 Minecode. All rights reserved.
+//  Created by bknds on 2017/12/27.
+//  Copyright © 2017年 bknds. All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,7 @@ import UIKit
 class ScratchViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var scratchImageView: MCScratchImageView!
+    @IBOutlet weak var scratchImageView: TrScratchImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,14 +36,14 @@ class ScratchViewController: UIViewController {
 
 }
 
-extension ScratchViewController: MCScratchImageViewDelegate {
+extension ScratchViewController: TrScratchImageViewDelegate {
     
-    func mcScratchImageView(_ mcScratchImageView: MCScratchImageView, didChangeProgress progress: CGFloat) {
+    func TrScratchImageView(_ TrScratchImageView: TrScratchImageView, didChangeProgress progress: CGFloat) {
         
         print("Progress did changed: " + String(format: "%.2f", progress))
         
         if (progress >= 0.8) {
-            mcScratchImageView.scratchAll()
+            TrScratchImageView.scratchAll()
         }
         
     }

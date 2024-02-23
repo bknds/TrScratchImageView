@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint MCScratchImageView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint TrScratchImageView.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "MCScratchImageView"
+  s.name         = "TrScratchImageView"
   s.version      = "1.0.0"
   s.summary      = "Custom ImageView like scratch card"
   s.swift_version = "4.0"
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                     A custom ImageView that is used to cover the surface of other view like a scratch card, user can swipe the mulch to see the view below.
                    DESC
 
-  s.homepage     = "https://github.com/Minecodecraft/MCScratchImageView"
+  s.homepage     = "https://github.com/bknds/TrScratchImageView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -54,9 +54,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Minecode" => "Minecoder@163.com" }
+  s.author             = { "bknds" => "bknds@163.com" }
   # Or just: s.author    = "JunLin Bian"
-  # s.authors            = { "JunLin Bian" => "Minecoder@163.com" }
+  # s.authors            = { "JunLin Bian" => "bkndsr@163.com" }
   # s.social_media_url   = "http://twitter.com/JunLin Bian"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "11.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Minecodecraft/MCScratchImageView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/bknds/TrScratchImageView.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MCScratchImageView/MCScratchImageView.swift"
+  s.source_files  = "TrScratchImageView/TrScratchImageView.swift"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

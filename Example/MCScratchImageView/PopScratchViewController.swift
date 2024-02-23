@@ -1,9 +1,9 @@
 //
 //  PopScratchViewController.swift
-//  MCScratchImageView
+//  TrScratchImageView
 //
-//  Created by Minecode on 2017/12/28.
-//  Copyright © 2017年 Minecode. All rights reserved.
+//  Created by bknds on 2017/12/28.
+//  Copyright © 2017年 bknds. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ class PopScratchViewController: UIViewController {
     
     @IBOutlet weak var popUpView: UIView!
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var scratchImageView: MCScratchImageView!
+    @IBOutlet weak var scratchImageView: TrScratchImageView!
     @IBOutlet weak var popUpViewTopCons: NSLayoutConstraint!
     @IBOutlet weak var popUpViewHeightCons: NSLayoutConstraint!
     
@@ -53,9 +53,9 @@ class PopScratchViewController: UIViewController {
     
 }
 
-extension PopScratchViewController: MCScratchImageViewDelegate {
+extension PopScratchViewController: TrScratchImageViewDelegate {
     
-    func mcScratchImageView(_ mcScratchImageView: MCScratchImageView, didChangeProgress progress: CGFloat) {
+    func TrScratchImageView(_ TrScratchImageView: TrScratchImageView, didChangeProgress progress: CGFloat) {
         
         print("Progress did changed: " + String(format: "%.2f", progress))
         
