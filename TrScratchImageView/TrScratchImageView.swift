@@ -19,7 +19,7 @@ public class TrScratchImageView: UIImageView {
     // MARK: Public stored properties
     public  var delegate: TrScratchImageViewDelegate?
     // Determin the radius of the spot
-    private(set) var spotRadius: CGFloat = 48.0
+    private(set) var spotRadius: CGFloat = 49.0
     
     // MARK: Public calculate properties
     // current scratched progress, 0.0(masked)~1.00(sharped)
