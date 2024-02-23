@@ -35,7 +35,7 @@ public class TrScratchImageView: UIImageView {
     private var imageContext: CGContext!
     private var colorSpace: CGColorSpace!
     private var touchedPoints: [CGPoint]!
-    private let kSpotRadiusDefault: CGFloat = 45.0
+    private let kSpotRadiusDefault: CGFloat = 46.0
     private let kBezierStepFactor: CGFloat = 0.2
     
     // MARK: Private caculate properties
